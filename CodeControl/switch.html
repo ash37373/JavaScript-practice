@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>switch문</title>
+  </head>
+  <body>
+    <script>
+      var a1 = 10;
+
+      //if 문은 조건이 만족할 경우 실행되는 분기문
+
+  		if(a1==20){
+  			document.write("a1은20입니다<br/>");
+  		}else if(a1==10){
+  			document.write("a1은10입니다<br/>");
+  		}else if(a1==0){
+  			document.write("a1은0입니다<br/>");
+  		}else{
+  			document.write("a1은 20,10,0이 아닙니다.");
+  		}
+
+		  //switch문은 조건에 해당하는 부분으로 이동되어 실행되는 분기문
+
+      switch(a1){
+        case 20:
+          document.write("a1은 20입니다.<br/>");
+          break;
+        case 10:
+          document.write("a1은 10입니다.<br/>");
+          break;
+        case 0:
+          document.write("a1 은 0입니다.<br/>");
+          break;
+        default:
+          document.write("a1은 20, 10 , 0이 아닙니다.");
+      }
+    </script>
+  </body>
+</html>
